@@ -18,8 +18,9 @@ android {
 
     buildTypes {
         named("release") {
-            isShrinkResources = true
-            isMinifyEnabled = true
+            // 以下两项务必保持false，否则编译代码优化会移除掉模块定义
+            isShrinkResources = false
+            isMinifyEnabled = false
             proguardFiles("proguard-rules.pro")
         }
     }
