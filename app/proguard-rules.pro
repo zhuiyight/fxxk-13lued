@@ -1,0 +1,1 @@
+-keep class icu.fuck.blued.MainHook
