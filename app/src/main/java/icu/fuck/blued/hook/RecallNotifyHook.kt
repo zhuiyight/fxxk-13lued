@@ -33,7 +33,6 @@ object RecallNotifyHook : BaseHook() {
                     (XposedHelpers.getAdditionalInstanceField(
                         chattingModel, "fuck_blued_notify"
                     ) as String?)?.let { notify ->
-                        ToastUtil.show(notify, false)
                         val viewGroup = hookParam.result as ViewGroup;
                         viewGroup.findViewWithTag<View>(1)?.let { v ->
                             viewGroup.removeView(v)
