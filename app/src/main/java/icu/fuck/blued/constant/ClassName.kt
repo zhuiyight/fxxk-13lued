@@ -5,6 +5,7 @@ object ClassName {
     const val LOGIN_RESULT = "com.blued.android.module.common.user.model.BluedLoginResult"
     const val MSG_CHATTING_PRESENT = "com.soft.blued.ui.msg.presenter.MsgChattingPresent"
     const val FLEX_DEBUG_SEV_CONFIG = "com.blued.android.config.FlexDebugSevConfig"
+    const val VISITOR_LIST_ADAPTER = "com.soft.blued.ui.find.adapter.VisitorListAdapter"
     const val VISITOR_LIST_RECYCLE_VIEW_ADAPTER = "com.soft.blued.ui.find.adapter.VisitorListRecycleViewAdapter"
     const val FLASH_PHOTO_MANAGER = "com.soft.blued.ui.msg.manager.FlashPhotoManager"
     const val FLASH_NUMBER_MODEL = "com.soft.blued.ui.msg.model.FlashNumberModel"

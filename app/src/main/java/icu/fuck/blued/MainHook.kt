@@ -12,7 +12,7 @@ private const val TAG = "Fuck-Blued"
 
 class MainHook : IXposedHookLoadPackage {
     companion object {
-        val hookVersion: String = "v1.0.0-alpha.1"
+        val hookVersion: String = "v1.0.0-alpha.2"
     }
 
     override fun handleLoadPackage(lpparam: XC_LoadPackage.LoadPackageParam) {
