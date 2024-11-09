@@ -12,8 +12,8 @@ android {
         applicationId = "icu.fuck.blued"
         minSdk = 24
         targetSdk = 34
-        versionCode = 2
-        versionName = "1.0.0-alpha.1"
+        versionCode = 3
+        versionName = "1.0.0-alpha.2"
     }
 
     buildTypes {
